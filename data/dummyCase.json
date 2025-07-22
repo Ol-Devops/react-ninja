@@ -1,0 +1,716 @@
+[
+  {
+    "id": 1,
+    "matter": "1000156",
+    "file": "PMSA Review - BLW-01",
+    "author": "BLW",
+    "units": 87
+  },
+  {
+    "id": 2,
+    "matter": "1012345",
+    "file": "Corporate Acquisition - BLW-02",
+    "author": "BLW",
+    "units": 120
+  },
+  {
+    "id": 3,
+    "matter": "1023456",
+    "file": "Property Dispute - BLW-03",
+    "author": "BLW",
+    "units": 55
+  },
+  {
+    "id": 4,
+    "matter": "1034567",
+    "file": "Contract Review - BLW-04",
+    "author": "BLW",
+    "units": 92
+  },
+  {
+    "id": 5,
+    "matter": "1045678",
+    "file": "Litigation Support - BLW-05",
+    "author": "BLW",
+    "units": 78
+  },
+  {
+    "id": 6,
+    "matter": "1056789",
+    "file": "Intellectual Property - BLW-06",
+    "author": "BLW",
+    "units": 110
+  },
+  {
+    "id": 7,
+    "matter": "1067890",
+    "file": "Client Consultation - BLW-07",
+    "author": "BLW",
+    "units": 45
+  },
+  {
+    "id": 8,
+    "matter": "1078901",
+    "file": "Merger Analysis - BLW-08",
+    "author": "BLW",
+    "units": 130
+  },
+  {
+    "id": 9,
+    "matter": "1089012",
+    "file": "Due Diligence - BLW-09",
+    "author": "BLW",
+    "units": 88
+  },
+  {
+    "id": 10,
+    "matter": "1100123",
+    "file": "Regulatory Compliance - BLW-10",
+    "author": "BLW",
+    "units": 62
+  },
+  {
+    "id": 11,
+    "matter": "1111234",
+    "file": "Arbitration Case - BLW-11",
+    "author": "BLW",
+    "units": 95
+  },
+  {
+    "id": 12,
+    "matter": "1122345",
+    "file": "Environmental Law - BLW-12",
+    "author": "BLW",
+    "units": 70
+  },
+  {
+    "id": 13,
+    "matter": "1133456",
+    "file": "Tax Advisory - BLW-13",
+    "author": "BLW",
+    "units": 50
+  },
+  {
+    "id": 14,
+    "matter": "1144567",
+    "file": "Employment Law - BLW-14",
+    "author": "BLW",
+    "units": 60
+  },
+  {
+    "id": 15,
+    "matter": "1155678",
+    "file": "Estate Planning - BLW-15",
+    "author": "BLW",
+    "units": 40
+  },
+  {
+    "id": 16,
+    "matter": "1166789",
+    "file": "Real Estate Deal - BLW-16",
+    "author": "BLW",
+    "units": 100
+  },
+  {
+    "id": 17,
+    "matter": "1177890",
+    "file": "Bankruptcy Case - BLW-17",
+    "author": "BLW",
+    "units": 80
+  },
+  {
+    "id": 18,
+    "matter": "1188901",
+    "file": "Criminal Defense - BLW-18",
+    "author": "BLW",
+    "units": 115
+  },
+  {
+    "id": 19,
+    "matter": "1199012",
+    "file": "Family Law Matter - BLW-19",
+    "author": "BLW",
+    "units": 65
+  },
+  {
+    "id": 20,
+    "matter": "1001001",
+    "file": "Immigration Case - BLW-20",
+    "author": "BLW",
+    "units": 75
+  },
+  {
+    "id": 21,
+    "matter": "1002102",
+    "file": "Healthcare Law - BLW-21",
+    "author": "BLW",
+    "units": 90
+  },
+  {
+    "id": 22,
+    "matter": "1003203",
+    "file": "Probate Administration - BLW-22",
+    "author": "BLW",
+    "units": 48
+  },
+  {
+    "id": 23,
+    "matter": "1004304",
+    "file": "Class Action Suit - BLW-23",
+    "author": "BLW",
+    "units": 150
+  },
+  {
+    "id": 24,
+    "matter": "1005405",
+    "file": "Trust Management - BLW-24",
+    "author": "BLW",
+    "units": 58
+  },
+  {
+    "id": 25,
+    "matter": "1006506",
+    "file": "Securities Litigation - BLW-25",
+    "author": "BLW",
+    "units": 135
+  },
+  {
+    "id": 26,
+    "matter": "1007607",
+    "file": "Product Liability - BLW-26",
+    "author": "BLW",
+    "units": 105
+  },
+  {
+    "id": 27,
+    "matter": "1008708",
+    "file": "Construction Law - BLW-27",
+    "author": "BLW",
+    "units": 72
+  },
+  {
+    "id": 28,
+    "matter": "1009809",
+    "file": "Insolvency Proceedings - BLW-28",
+    "author": "BLW",
+    "units": 85
+  },
+  {
+    "id": 29,
+    "matter": "1010910",
+    "file": "Data Privacy - BLW-29",
+    "author": "BLW",
+    "units": 68
+  },
+  {
+    "id": 30,
+    "matter": "1012011",
+    "file": "Antitrust Case - BLW-30",
+    "author": "BLW",
+    "units": 140
+  },
+  {
+    "id": 31,
+    "matter": "1013112",
+    "file": "Partnership Agreement - NKA-01",
+    "author": "NKA",
+    "units": 90
+  },
+  {
+    "id": 32,
+    "matter": "1014213",
+    "file": "Commercial Lease - NKA-02",
+    "author": "NKA",
+    "units": 70
+  },
+  {
+    "id": 33,
+    "matter": "1015314",
+    "file": "Venture Capital Funding - NKA-03",
+    "author": "NKA",
+    "units": 150
+  },
+  {
+    "id": 34,
+    "matter": "1016415",
+    "file": "Intellectual Property Dispute - NKA-04",
+    "author": "NKA",
+    "units": 110
+  },
+  {
+    "id": 35,
+    "matter": "1017516",
+    "file": "Startup Advisory - NKA-05",
+    "author": "NKA",
+    "units": 60
+  },
+  {
+    "id": 36,
+    "matter": "1018617",
+    "file": "Franchise Agreement - NKA-06",
+    "author": "NKA",
+    "units": 80
+  },
+  {
+    "id": 37,
+    "matter": "1019718",
+    "file": "Joint Venture - NKA-07",
+    "author": "NKA",
+    "units": 120
+  },
+  {
+    "id": 38,
+    "matter": "1020819",
+    "file": "Brand Protection - NKA-08",
+    "author": "NKA",
+    "units": 95
+  },
+  {
+    "id": 39,
+    "matter": "1021920",
+    "file": "Software Licensing - NKA-09",
+    "author": "NKA",
+    "units": 75
+  },
+  {
+    "id": 40,
+    "matter": "1023021",
+    "file": "E-commerce Regulations - NKA-10",
+    "author": "NKA",
+    "units": 65
+  },
+  {
+    "id": 41,
+    "matter": "1024122",
+    "file": "Data Security Incident - NKA-11",
+    "author": "NKA",
+    "units": 100
+  },
+  {
+    "id": 42,
+    "matter": "1025223",
+    "file": "Fintech Compliance - NKA-12",
+    "author": "NKA",
+    "units": 85
+  },
+  {
+    "id": 43,
+    "matter": "1026324",
+    "file": "Supply Chain Contract - NKA-13",
+    "author": "NKA",
+    "units": 92
+  },
+  {
+    "id": 44,
+    "matter": "1027425",
+    "file": "Cross-border Transaction - NKA-14",
+    "author": "NKA",
+    "units": 130
+  },
+  {
+    "id": 45,
+    "matter": "1028526",
+    "file": "Digital Marketing Law - NKA-15",
+    "author": "NKA",
+    "units": 55
+  },
+  {
+    "id": 46,
+    "matter": "1029627",
+    "file": "Consumer Protection - NKA-16",
+    "author": "NKA",
+    "units": 78
+  },
+  {
+    "id": 47,
+    "matter": "1030728",
+    "file": "Investment Advisory - NKA-17",
+    "author": "NKA",
+    "units": 140
+  },
+  {
+    "id": 48,
+    "matter": "1031829",
+    "file": "Telecommunications Regulation - NKA-18",
+    "author": "NKA",
+    "units": 105
+  },
+  {
+    "id": 49,
+    "matter": "1032930",
+    "file": "Gaming Law - NKA-19",
+    "author": "NKA",
+    "units": 88
+  },
+  {
+    "id": 50,
+    "matter": "1034031",
+    "file": "Media Rights - NKA-20",
+    "author": "NKA",
+    "units": 98
+  },
+  {
+    "id": 51,
+    "matter": "1035132",
+    "file": "Sports Contracts - NKA-21",
+    "author": "NKA",
+    "units": 115
+  },
+  {
+    "id": 52,
+    "matter": "1036233",
+    "file": "Music Licensing - NKA-22",
+    "author": "NKA",
+    "units": 72
+  },
+  {
+    "id": 53,
+    "matter": "1037334",
+    "file": "Entertainment Law - NKA-23",
+    "author": "NKA",
+    "units": 125
+  },
+  {
+    "id": 54,
+    "matter": "1038435",
+    "file": "Defamation Suit - NKA-24",
+    "author": "NKA",
+    "units": 82
+  },
+  {
+    "id": 55,
+    "matter": "1039536",
+    "file": "Publishing Agreement - NKA-25",
+    "author": "NKA",
+    "units": 68
+  },
+  {
+    "id": 56,
+    "matter": "1040637",
+    "file": "Artist Management - NKA-26",
+    "author": "NKA",
+    "units": 90
+  },
+  {
+    "id": 57,
+    "matter": "1041738",
+    "file": "Public Relations - NKA-27",
+    "author": "NKA",
+    "units": 50
+  },
+  {
+    "id": 58,
+    "matter": "1042839",
+    "file": "Charity Formation - NKA-28",
+    "author": "NKA",
+    "units": 45
+  },
+  {
+    "id": 59,
+    "matter": "1043940",
+    "file": "Non-profit Compliance - NKA-29",
+    "author": "NKA",
+    "units": 58
+  },
+  {
+    "id": 60,
+    "matter": "1045041",
+    "file": "Grant Agreement - NKA-30",
+    "author": "NKA",
+    "units": 62
+  },
+  {
+    "id": 61,
+    "matter": "1046142",
+    "file": "Endowment Management - NKA-31",
+    "author": "NKA",
+    "units": 70
+  },
+  {
+    "id": 62,
+    "matter": "1047243",
+    "file": "Volunteer Liability - NKA-32",
+    "author": "NKA",
+    "units": 48
+  },
+  {
+    "id": 63,
+    "matter": "1048344",
+    "file": "Fundraising Regulations - NKA-33",
+    "author": "NKA",
+    "units": 75
+  },
+  {
+    "id": 64,
+    "matter": "1049445",
+    "file": "Tax Exemption Advisory - NKA-34",
+    "author": "NKA",
+    "units": 80
+  },
+  {
+    "id": 65,
+    "matter": "1050546",
+    "file": "Governance Consulting - NKA-35",
+    "author": "NKA",
+    "units": 90
+  },
+  {
+    "id": 66,
+    "matter": "1051647",
+    "file": "Commercial Litigation - SCN-01",
+    "author": "SCN",
+    "units": 110
+  },
+  {
+    "id": 67,
+    "matter": "1052748",
+    "file": "Arbitration Proceeding - SCN-02",
+    "author": "SCN",
+    "units": 95
+  },
+  {
+    "id": 68,
+    "matter": "1053849",
+    "file": "Mediation Session - SCN-03",
+    "author": "SCN",
+    "units": 60
+  },
+  {
+    "id": 69,
+    "matter": "1054950",
+    "file": "Dispute Resolution - SCN-04",
+    "author": "SCN",
+    "units": 85
+  },
+  {
+    "id": 70,
+    "matter": "1056051",
+    "file": "Contract Enforcement - SCN-05",
+    "author": "SCN",
+    "units": 78
+  },
+  {
+    "id": 71,
+    "matter": "1057152",
+    "file": "Breach of Contract - SCN-06",
+    "author": "SCN",
+    "units": 120
+  },
+  {
+    "id": 72,
+    "matter": "1058253",
+    "file": "Shareholder Dispute - SCN-07",
+    "author": "SCN",
+    "units": 130
+  },
+  {
+    "id": 73,
+    "matter": "1059354",
+    "file": "Partnership Dissolution - SCN-08",
+    "author": "SCN",
+    "units": 100
+  },
+  {
+    "id": 74,
+    "matter": "1060455",
+    "file": "Fraud Investigation - SCN-09",
+    "author": "SCN",
+    "units": 140
+  },
+  {
+    "id": 75,
+    "matter": "1061556",
+    "file": "Debt Recovery - SCN-10",
+    "author": "SCN",
+    "units": 70
+  },
+  {
+    "id": 76,
+    "matter": "1062657",
+    "file": "Injunction Application - SCN-11",
+    "author": "SCN",
+    "units": 90
+  },
+  {
+    "id": 77,
+    "matter": "1063758",
+    "file": "Expert Witness Preparation - SCN-12",
+    "author": "SCN",
+    "units": 115
+  },
+  {
+    "id": 78,
+    "matter": "1064859",
+    "file": "Discovery Management - SCN-13",
+    "author": "SCN",
+    "units": 80
+  },
+  {
+    "id": 79,
+    "matter": "1065960",
+    "file": "Settlement Negotiations - SCN-14",
+    "author": "SCN",
+    "units": 65
+  },
+  {
+    "id": 80,
+    "matter": "1067061",
+    "file": "Appellate Case - SCN-15",
+    "author": "SCN",
+    "units": 160
+  },
+  {
+    "id": 81,
+    "matter": "1068162",
+    "file": "Jury Selection - SCN-16",
+    "author": "SCN",
+    "units": 55
+  },
+  {
+    "id": 82,
+    "matter": "1069263",
+    "file": "Trial Preparation - SCN-17",
+    "author": "SCN",
+    "units": 125
+  },
+  {
+    "id": 83,
+    "matter": "1070364",
+    "file": "Witness Interview - SCN-18",
+    "author": "SCN",
+    "units": 72
+  },
+  {
+    "id": 84,
+    "matter": "1071465",
+    "file": "Pleading Drafting - SCN-19",
+    "author": "SCN",
+    "units": 88
+  },
+  {
+    "id": 85,
+    "matter": "1072566",
+    "file": "Evidence Review - SCN-20",
+    "author": "SCN",
+    "units": 105
+  },
+  {
+    "id": 86,
+    "matter": "1073667",
+    "file": "Enforcement of Judgment - SCN-21",
+    "author": "SCN",
+    "units": 92
+  },
+  {
+    "id": 87,
+    "matter": "1074768",
+    "file": "Pre-Trial Motions - SCN-22",
+    "author": "SCN",
+    "units": 75
+  },
+  {
+    "id": 88,
+    "matter": "1000070",
+    "file": "Special Project Alpha - 01",
+    "author": "NKA",
+    "units": 40
+  },
+  {
+    "id": 89,
+    "matter": "1000070",
+    "file": "Critical Review Beta - 02",
+    "author": "BLW",
+    "units": 60
+  },
+  {
+    "id": 90,
+    "matter": "1000070",
+    "file": "Urgent Brief Gamma - 03",
+    "author": "SCN",
+    "units": 30
+  },
+  {
+    "id": 91,
+    "matter": "1000070",
+    "file": "Strategic Initiative Delta - 04",
+    "author": "BLW",
+    "units": 70
+  },
+  {
+    "id": 92,
+    "matter": "1000070",
+    "file": "Advisory Board Epsilon - 05",
+    "author": "NKA",
+    "units": 50
+  },
+  {
+    "id": 93,
+    "matter": "1000070",
+    "file": "Compliance Check Zeta - 06",
+    "author": "SCN",
+    "units": 45
+  },
+  {
+    "id": 94,
+    "matter": "1000070",
+    "file": "Legal Opinion Eta - 07",
+    "author": "BLW",
+    "units": 65
+  },
+  {
+    "id": 95,
+    "matter": "1000070",
+    "file": "Policy Development Theta - 08",
+    "author": "NKA",
+    "units": 80
+  },
+  {
+    "id": 96,
+    "matter": "1000070",
+    "file": "Risk Assessment Iota - 09",
+    "author": "SCN",
+    "units": 35
+  },
+  {
+    "id": 97,
+    "matter": "1000070",
+    "file": "Due Diligence Kappa - 10",
+    "author": "BLW",
+    "units": 75
+  },
+  {
+    "id": 98,
+    "matter": "1000070",
+    "file": "Internal Audit Lambda - 11",
+    "author": "NKA",
+    "units": 55
+  },
+  {
+    "id": 99,
+    "matter": "1000070",
+    "file": "Regulatory Review Mu - 12",
+    "author": "SCN",
+    "units": 48
+  },
+  {
+    "id": 100,
+    "matter": "1000070",
+    "file": "Client Strategy Nu - 13",
+    "author": "BLW",
+    "units": 90
+  },
+  {
+    "id": 101,
+    "matter": "1000070",
+    "file": "Project Management Xi - 14",
+    "author": "NKA",
+    "units": 62
+  },
+  {
+    "id": 102,
+    "matter": "1000070",
+    "file": "Reporting Oversight Omicron - 15",
+    "author": "SCN",
+    "units": 52
+  }
+]

@@ -1,0 +1,46 @@
+{
+    "blogs": [
+      {
+        "title": "Adventures in Coding",
+        "body": "Embarking on a new programming journey. It's crucial to understand the basics before diving into complex projects.",
+        "author": "luigi",
+        "id": 3
+      },
+      {
+        "title": "The Art of Storytelling",
+        "body": "Crafting compelling narratives. Readers are often drawn to stories that evoke strong emotions.",
+        "author": "peach",
+        "id": 4
+      },
+      {
+        "title": "Healthy Habits for Developers",
+        "body": "Maintaining well-being in a tech-driven world. Regular breaks and exercise are vital for productivity.",
+        "author": "toad",
+        "id": 5
+      },
+      {
+        "title": "Exploring New Recipes",
+        "body": "A culinary journey through international flavors. Experimenting with spices can elevate any dish.",
+        "author": "bowser",
+        "id": 6
+      },
+      {
+        "title": "Gardening Tips for Beginners",
+        "body": "Starting your own green space. Even a small balcony can host a thriving herb garden.",
+        "author": "daisy",
+        "id": 7
+      },
+      {
+        "title": "Future of AI",
+        "body": "How artificial intelligence is shaping our world. Ethical considerations are paramount as technology advances.",
+        "author": "koopa",
+        "id": 8
+      },
+      {
+        "title": "Travel Diaries: My Trip to Japan",
+        "body": "Discovering ancient traditions and modern marvels. The cherry blossoms in spring were truly unforgettable.",
+        "author": "wario",
+        "id": 9
+      }
+    ]
+  }
