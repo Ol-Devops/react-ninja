@@ -9,6 +9,19 @@ const Lhome = () => {
         commodi vel sint maiores error consequuntur adipisci nihil
         exercitationem placeat animi!
       </p>
+
+      <div>
+        <h2>Gallery</h2>
+
+        <div style={{ display: "flex", gap: "1rem" }}>
+          <img src="https://picsum.photos/seed/picsum/200/300" alt="img" />
+
+          <img src="https://picsum.photos/seed/picsum/200/300" alt="img" />
+          <img src="https://picsum.photos/200" alt="img" />
+
+          <img src="https://picsum.photos/200" alt="img" />
+        </div>
+      </div>
     </main>
   );
 };

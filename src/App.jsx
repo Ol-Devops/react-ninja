@@ -16,44 +16,44 @@ import Lfooter from "./practical/pages/Lfooter";
 
 function App() {
   return (
-    <Router>
-      <Nav />
-
-      <div style={{ marginTop: "2rem", marginLeft: "4rem" }}>
-        <Switch>
-          <Route exact path="/">
-            <Lhome />
-          </Route>
-
-          <Route path="/location">
-            <Llocation />
-          </Route>
-
-          <Route exact path="/contact">
-            <Lcontact />
-          </Route>
-        </Switch>
-      </div>
-
-      <Lfooter />
-    </Router>
-
     // <Router>
-    //   <div className="App">
-    //     <Navbar />
-    //     <div className="content">
-    //       <Switch>
-    //         <Route exact path="/">
-    //           <Home />
-    //         </Route>
+    //   <Nav />
 
-    //         <Route path="/create">
-    //           <Create />
-    //         </Route>
-    //       </Switch>
-    //     </div>
+    //   <div style={{ marginTop: "2rem", marginLeft: "4rem" }}>
+    //     <Switch>
+    //       <Route exact path="/">
+    //         <Lhome />
+    //       </Route>
+
+    //       <Route path="/location">
+    //         <Llocation />
+    //       </Route>
+
+    //       <Route exact path="/contact">
+    //         <Lcontact />
+    //       </Route>
+    //     </Switch>
     //   </div>
+
+    //   <Lfooter />
     // </Router>
+
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div className="content">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+
+            <Route path="/create">
+              <Create />
+            </Route>
+          </Switch>
+        </div>
+      </div>
+    </Router>
   );
 }
 
