@@ -1,17 +1,15 @@
-import { BlogList } from "./BlogList";
-import useFetch from "../hooks/useFetch";
 import ContentHome from "./ContentHome";
+import useFetch from "../hooks/useFetch";
+import useDeleteBlog from "../hooks/useDeleteBlog"; // ✅ ADDED: import the custom delete hook
 
 const Home = () => {
   const endpoint = "http://localhost:8050/blogs";
 
+  // ✅ EXISTING: fetch data using custom fetch hook
   const { data, isLoading, error, setData } = useFetch(endpoint);
 
-  const deleteBlog = (id) => {
-    const newBlogs = data?.filter((data) => data?.id !== id);
-
-    setData(newBlogs);
-  };
+  // ✅ REPLACED INLINE FUNCTION: use custom hook instead
+  const { deleteBlog } = useDeleteBlog(data, setData);
 
   const blogSize = data?.length;
 
@@ -19,7 +17,7 @@ const Home = () => {
     <>
       <ContentHome
         blogSize={blogSize}
-        deleteBlog={deleteBlog}
+        deleteBlog={deleteBlog} // ✅ PASSES deleteBlog from hook as prop
         isLoading={isLoading}
         error={error}
         data={data}
