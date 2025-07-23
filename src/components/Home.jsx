@@ -13,8 +13,11 @@ const Home = () => {
 
   const blogSize = data?.length;
 
+
+
   return (
     <>
+  
       <ContentHome
         blogSize={blogSize}
         deleteBlog={deleteBlog} // ✅ PASSES deleteBlog from hook as prop

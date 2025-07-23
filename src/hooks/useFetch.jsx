@@ -13,7 +13,7 @@ const useFetch = (endpoint) => {
       setIsError(""); // ✅ Clear previous error before new fetch (added)
 
       try {
-        const res = await fetch(endpoint);
+        const  res = await fetch(endpoint);
 
         if (!res.ok) {
           // ✅ Handle non-OK HTTP responses explicitly (added)
