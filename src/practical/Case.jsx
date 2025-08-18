@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Case = ({ filterData, deleteCase }) => {
   //* All sates are here
@@ -140,11 +141,14 @@ const Case = ({ filterData, deleteCase }) => {
               margin: "1rem 15rem 1rem 0",
             }}
           >
-            <p>ID: {id}</p>
-            <p>Matter: {matter}</p>
-            <p>File: {file}</p>
-            <p>Author: {author}</p>
-            <p>Units Billed: {units}</p>
+            <Link to={`/case/${id}`}>
+              <p>ID: {id}</p>
+              <p>Matter: {matter}</p>
+              <p>File: {file}</p>
+              <p>Author: {author}</p>
+              <p>Units Billed: {units}</p>
+            </Link>
+
             <button onClick={() => deleteCase(id, newData)}>Delete</button>
           </div>
         ))}
