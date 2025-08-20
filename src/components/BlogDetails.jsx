@@ -15,11 +15,26 @@ const BlogDetails = () => {
 
   return (
     <div className="blog-details">
-      <Link
-        to="/"
-        className="inline-block mb-2 hover:text-orange-500 transition-colors"
-      >
-        <BiArrowBack className="text-6xl text-orange-500 cursor-pointer transition-shadow hover:shadow-[0_0_10px_2px_rgba(255,165,0,0.7)]" />
+      <Link to="/">
+        <BiArrowBack
+          style={{
+            fontSize: "1.5rem",
+            color: "#1976d2", // blue
+            borderRadius: "50%",
+            cursor: "pointer",
+            verticalAlign: "middle",
+            transition: "color 0.2s, box-shadow 0.2s",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.boxShadow =
+              "0 0 12px 2px rgba(100,181,246,0.5)"; // light blue glow
+            e.currentTarget.style.color = "#64b5f6"; // light blue
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.boxShadow = "none";
+            e.currentTarget.style.color = "#1976d2"; // revert to blue
+          }}
+        />
       </Link>
 
       <br />

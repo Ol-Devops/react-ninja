@@ -1,46 +1,298 @@
 {
-    "blogs": [
-      {
-        "title": "Adventures in Coding",
-        "body": "Embarking on a new programming journey. It's crucial to understand the basics before diving into complex projects.",
-        "author": "luigi",
-        "id": 1
-      },
-      {
-        "title": "The Art of Storytelling",
-        "body": "Crafting compelling narratives. Readers are often drawn to stories that evoke strong emotions.",
-        "author": "peach",
-        "id": 2
-      },
-      {
-        "title": "Healthy Habits for Developers",
-        "body": "Maintaining well-being in a tech-driven world. Regular breaks and exercise are vital for productivity.",
-        "author": "toad",
-        "id": 3
-      },
-      {
-        "title": "Exploring New Recipes",
-        "body": "A culinary journey through international flavors. Experimenting with spices can elevate any dish.",
-        "author": "bowser",
-        "id": 4
-      },
-      {
-        "title": "Gardening Tips for Beginners",
-        "body": "Starting your own green space. Even a small balcony can host a thriving herb garden.",
-        "author": "daisy",
-        "id": 5
-      },
-      {
-        "title": "Future of AI",
-        "body": "How artificial intelligence is shaping our world. Ethical considerations are paramount as technology advances.",
-        "author": "koopa",
-        "id": 6
-      },
-      {
-        "title": "Travel Diaries: My Trip to Japan",
-        "body": "Discovering ancient traditions and modern marvels. The cherry blossoms in spring were truly unforgettable.",
-        "author": "wario",
-        "id": 7
-      }
-    ]
-  }
+  "blogs": [
+    {
+      "title": "Adventures in Coding",
+      "body": "Embarking on a new programming journey. It's crucial to understand the basics before diving into complex projects.",
+      "author": "luigi",
+      "id": "1"
+    },
+    {
+      "title": "The Art of Storytelling",
+      "body": "Crafting compelling narratives. Readers are often drawn to stories that evoke strong emotions.",
+      "author": "peach",
+      "id": "2"
+    },
+    {
+      "title": "Healthy Habits for Developers",
+      "body": "Maintaining well-being in a tech-driven world. Regular breaks and exercise are vital for productivity.",
+      "author": "toad",
+      "id": "3"
+    },
+    {
+      "title": "Exploring New Recipes",
+      "body": "A culinary journey through international flavors. Experimenting with spices can elevate any dish.",
+      "author": "bowser",
+      "id": "4"
+    },
+    {
+      "title": "Gardening Tips for Beginners",
+      "body": "Starting your own green space. Even a small balcony can host a thriving herb garden.",
+      "author": "daisy",
+      "id": "5"
+    },
+    {
+      "title": "Future of AI",
+      "body": "How artificial intelligence is shaping our world. Ethical considerations are paramount as technology advances.",
+      "author": "koopa",
+      "id": "6"
+    },
+    {
+      "title": "Travel Diaries: My Trip to Japan",
+      "body": "Discovering ancient traditions and modern marvels. The cherry blossoms in spring were truly unforgettable.",
+      "author": "wario",
+      "id": "7"
+    },
+    {
+      "id": "ecda",
+      "title": "Sunt accusantium seq",
+      "body": "Nobis autem ipsa ma",
+      "author": "Mario"
+    },
+    {
+      "id": "47ec",
+      "title": "Dicta sit lorem omni",
+      "body": "Praesentium deleniti",
+      "author": "Yoshi"
+    },
+    {
+      "id": "f606",
+      "title": "Dicta sit lorem omni",
+      "body": "Praesentium deleniti",
+      "author": "Yoshi"
+    },
+    {
+      "id": "ad1f",
+      "title": "Ipsa possimus elit",
+      "body": "In libero cum aliqui",
+      "author": "Yoshi"
+    },
+    {
+      "id": "a570",
+      "title": "Odit aut ex modi aut",
+      "body": "Nulla ut nemo ab sus",
+      "author": "Yoshi"
+    },
+    {
+      "id": "1ac5",
+      "title": "Libero eius do beata",
+      "body": "Et est quia incidunt",
+      "author": "Mario"
+    },
+    {
+      "id": "e93c",
+      "title": "Mollitia esse ut con",
+      "body": "Maxime error vitae v",
+      "author": "Mario"
+    },
+    {
+      "id": "f1c7",
+      "title": "Sed veniam ratione ",
+      "body": "Quidem omnis rerum a",
+      "author": "Yoshi"
+    },
+    {
+      "id": "c41e",
+      "title": "Officiis nisi suscip",
+      "body": "Fugiat eos labore ",
+      "author": "Mario"
+    },
+    {
+      "id": "50f7",
+      "title": "Maiores ea quasi ex ",
+      "body": "Fugiat porro asperi",
+      "author": "Yoshi"
+    },
+    {
+      "id": "335b",
+      "title": "Ex dolores iusto ut ",
+      "body": "Eaque maxime sint au",
+      "author": "Yoshi"
+    },
+    {
+      "id": "7b17",
+      "title": "Optio repellendus ",
+      "body": "Aspernatur excepteur",
+      "author": "Mario"
+    },
+    {
+      "id": "6baf",
+      "title": "Architecto fugiat e",
+      "body": "Voluptate et dolorib",
+      "author": "Mario"
+    },
+    {
+      "id": "624f",
+      "title": "Porro ipsum hic non",
+      "body": "Proident repudianda",
+      "author": "Yoshi"
+    },
+    {
+      "id": "c257",
+      "title": "At eiusmod elit mol",
+      "body": "Non explicabo Deser",
+      "author": "Mario"
+    },
+    {
+      "id": "ce19",
+      "title": "Tempora fugit sed e",
+      "body": "Eum itaque cum nostr",
+      "author": "Yoshi"
+    },
+    {
+      "id": "521d",
+      "title": "Magnam magni qui in ",
+      "body": "Neque minim aute mol",
+      "author": "Mario"
+    },
+    {
+      "id": "532c",
+      "title": "Officiis similique n",
+      "body": "Deleniti in libero a",
+      "author": "Yoshi"
+    },
+    {
+      "id": "ea51",
+      "title": "Et voluptatem velit",
+      "body": "Voluptas natus aliqu",
+      "author": "Yoshi"
+    },
+    {
+      "id": "14df",
+      "title": "Cum sunt ut qui volu",
+      "body": "Numquam quis ullam u",
+      "author": "Yoshi"
+    },
+    {
+      "id": "3231",
+      "title": "Nulla do dignissimos",
+      "body": "Aperiam est nostrum ",
+      "author": "Mario"
+    },
+    {
+      "id": "45ac",
+      "title": "sdgfd",
+      "body": "dfdf",
+      "author": "Mario"
+    },
+    {
+      "id": "bd9e",
+      "title": "Ipsa veniam quae r",
+      "body": "Modi quis sapiente t",
+      "author": "Mario"
+    },
+    {
+      "id": "723f",
+      "title": "Autem et excepturi u",
+      "body": "Sed dolore ad aut ip",
+      "author": "Yoshi"
+    },
+    {
+      "id": "8a9a",
+      "title": "Sit do labore ut qu",
+      "body": "Tempor anim sed non ",
+      "author": "Mario"
+    },
+    {
+      "id": "f71c",
+      "title": "Laboriosam exercita",
+      "body": "Accusamus assumenda ",
+      "author": "Mario"
+    },
+    {
+      "id": "a3e4",
+      "title": "Recusandae Aute vel",
+      "body": "Id iusto dolores ear",
+      "author": "Yoshi"
+    },
+    {
+      "id": "9169",
+      "title": "Aliqua Debitis opti",
+      "body": "Cupidatat voluptatem",
+      "author": "Yoshi"
+    },
+    {
+      "id": "66f7",
+      "title": "Consequuntur commodi",
+      "body": "Incidunt ut rerum e",
+      "author": "Yoshi"
+    },
+    {
+      "id": "7d4f",
+      "title": "Ut voluptatum et lor",
+      "body": "Enim ex Nam deleniti",
+      "author": "Yoshi"
+    },
+    {
+      "id": "4d86",
+      "title": "Consequuntur ut prov",
+      "body": "Placeat optio volu",
+      "author": "Mario"
+    },
+    {
+      "id": "1e25",
+      "title": "Accusantium sunt omn",
+      "body": "Excepteur ab quos qu",
+      "author": "Yoshi"
+    },
+    {
+      "id": "d335",
+      "title": "Ut doloremque fugiat",
+      "body": "Dolorum omnis a cons",
+      "author": "Mario"
+    },
+    {
+      "id": "1384",
+      "title": "Est elit qui error ",
+      "body": "Ipsa laborum Elige",
+      "author": "Yoshi"
+    },
+    {
+      "id": "116c",
+      "title": "Dolor optio sint ip",
+      "body": "Duis illo aut non ip",
+      "author": "Yoshi"
+    },
+    {
+      "id": "3e5e",
+      "title": "Sed ducimus earum e",
+      "body": "Est facilis est omn",
+      "author": "Yoshi"
+    },
+    {
+      "id": "b2b0",
+      "title": "Consequatur eos dol",
+      "body": "Repellendus Ea temp",
+      "author": "Yoshi"
+    },
+    {
+      "id": "06bd",
+      "title": "Fugiat in id nobis ",
+      "body": "Commodo porro conseq",
+      "author": "Yoshi"
+    },
+    {
+      "id": "3a3c",
+      "title": "Minima dolor animi ",
+      "body": "Architecto dolor qui",
+      "author": "Mario"
+    },
+    {
+      "id": "c7ee",
+      "title": "Dolores eveniet dol",
+      "body": "Ducimus quas soluta",
+      "author": "Yoshi"
+    },
+    {
+      "id": "2b52",
+      "title": "Illo quam odit non a",
+      "body": "Et ut aspernatur pro",
+      "author": "Yoshi"
+    },
+    {
+      "id": "b8d4",
+      "title": "Soluta exercitation ",
+      "body": "Ad excepteur velit e",
+      "author": "Mario"
+    }
+  ]
+}
