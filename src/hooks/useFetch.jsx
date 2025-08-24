@@ -3,33 +3,39 @@ import { useState, useEffect } from "react";
 const useFetch = (endpoint) => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [error, setIsError] = useState("");
+  const [error, setError] = useState("");
 
   useEffect(() => {
-    if (!endpoint) return; // Exit func if no endpoint
+    if (!endpoint) return;
+
+    const abortController = new AbortController();
 
     const fetchBlogs = async () => {
-      setIsLoading(true); // ✅ Set loading true before fetch starts (added)
-      setIsError(""); // ✅ Clear previous error before new fetch (added)
+      setIsLoading(true);
+      setError("");
 
       try {
-        const res = await fetch(endpoint);
-
-        if (!res.ok) {
-          // ✅ Handle non-OK HTTP responses explicitly (added)
-          throw new Error(`Error: ${res.status} ${res.statusText}`);
-        }
-
+        const res = await fetch(endpoint, { signal: abortController.signal });
+        if (!res.ok) throw new Error("Network response was not ok");
         const data = await res.json();
         setData(data);
       } catch (error) {
-        setIsError(error.message); // set error message
+        if (error.name === "AbortError") {
+          // Suppress AbortError so it doesn't throw to the console
+          return;
+        }
+        setError(error.message);
+        console.error(error);
       } finally {
-        setIsLoading(false); // ✅ Ensure loading state is turned off in all cases (added)
+        setIsLoading(false);
       }
     };
 
-    fetchBlogs(); // Removed redundant if-check around this call (simplified)
+    fetchBlogs();
+
+    return () => {
+      abortController.abort();
+    };
   }, [endpoint]);
 
   return { data, isLoading, error, setData };
