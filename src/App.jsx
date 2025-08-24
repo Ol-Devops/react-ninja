@@ -8,6 +8,7 @@ import {
   Switch,
 } from "react-router-dom/cjs/react-router-dom.min";
 import Create from "./components/Create";
+import Edit from "./components/Edit";
 import Nav from "./practical/Nav";
 import Lhome from "./practical/pages/Lhome";
 import Llocation from "./practical/pages/Llocation";
@@ -15,6 +16,7 @@ import Lcontact from "./practical/pages/Lcontact";
 import Lfooter from "./practical/pages/Lfooter";
 import BlogDetails from "./components/BlogDetails";
 import Case from "./practical/Case";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -57,8 +59,16 @@ function App() {
               <Create />
             </Route>
 
+            <Route path="/edit/:id">
+              <Edit />
+            </Route>
+
             <Route path="/blogs/:id">
               <BlogDetails />
+            </Route>
+
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>

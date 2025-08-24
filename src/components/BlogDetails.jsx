@@ -1,44 +1,21 @@
-import { IoMdArrowRoundBack } from "react-icons/io";
-import { BiArrowBack } from "react-icons/bi";
-import { Link, useParams } from "react-router-dom/cjs/react-router-dom.min";
+import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import useFetch from "../hooks/useFetch";
+import BackBtn from "./BackBtn";
+import API_ENDPOINTS from "../config/apiConfig";
+import DeleteBtn from "./DeleteBtn";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const {
-    data: blog,
-    isLoading,
-    error,
-  } = useFetch(`http://localhost:8050/blogs/${id}`);
+  const endpoint = API_ENDPOINTS.BLOGS;
+
+  const idAPI = `${endpoint}/${id}`;
+  const { data: blog, isLoading, error } = useFetch(idAPI);
 
   const { title, author, body } = blog;
 
   return (
     <div className="blog-details">
-      <Link to="/">
-        <BiArrowBack
-          style={{
-            fontSize: "1.5rem",
-            color: "#1976d2", // blue
-            borderRadius: "50%",
-            cursor: "pointer",
-            verticalAlign: "middle",
-            transition: "color 0.2s, box-shadow 0.2s",
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.boxShadow =
-              "0 0 12px 2px rgba(100,181,246,0.5)"; // light blue glow
-            e.currentTarget.style.color = "#64b5f6"; // light blue
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.boxShadow = "none";
-            e.currentTarget.style.color = "#1976d2"; // revert to blue
-          }}
-        />
-      </Link>
-
-      <br />
-      <br />
+      <BackBtn />
 
       <h1>Blog Details {id}</h1>
 
@@ -53,6 +30,8 @@ const BlogDetails = () => {
           <p>Written by: {author}</p>
 
           <div>{body}</div>
+
+          <DeleteBtn endpoint={idAPI} />
         </article>
       )}
     </div>

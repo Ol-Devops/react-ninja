@@ -6,39 +6,36 @@ const useFetch = (endpoint) => {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    if (!endpoint) return; // Exit func if no endpoint
+    if (!endpoint) return;
 
-    // Abort controller
     const abortController = new AbortController();
 
     const fetchBlogs = async () => {
-      setIsLoading(true); // ✅ Set loading true before fetch starts (added)
-      setError(""); // ✅ Clear previous error before new fetch (added)
+      setIsLoading(true);
+      setError("");
 
       try {
-        const res = await fetch(endpoint, abortController.signal);
-
-        if (!res.ok) {
-          // ✅ Handle non-OK HTTP responses explicitly (added)
-          throw new Error(`Error: ${res.status} ${res.statusText}`);
-        }
-
+        const res = await fetch(endpoint, { signal: abortController.signal });
+        if (!res.ok) throw new Error("Network response was not ok");
         const data = await res.json();
         setData(data);
       } catch (error) {
         if (error.name === "AbortError") {
-          console.log("Fetch aborted"); // Log fetch abort
-        } else {
-          setError(error.message); // set error message
+          // Suppress AbortError so it doesn't throw to the console
+          return;
         }
+        setError(error.message);
+        console.error(error);
       } finally {
-        setIsLoading(false); // ✅ Ensure loading state is turned off in all cases (added)
+        setIsLoading(false);
       }
     };
 
-    fetchBlogs(); // Removed redundant if-check around this call (simplified)
+    fetchBlogs();
 
-    return () => abortController.abort();
+    return () => {
+      abortController.abort();
+    };
   }, [endpoint]);
 
   return { data, isLoading, error, setData };

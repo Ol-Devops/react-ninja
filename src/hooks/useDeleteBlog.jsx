@@ -1,11 +1,16 @@
-const useDeleteBlog = (data, setData) => {
-  // ✅ deleteBlog function extracted from Home
-  const deleteBlog = (id) => {
-    const updatedData = data?.filter((item) => item?.id !== id);
-    setData(updatedData); // ✅ Updates state after filtering out deleted blog
+import { useHistory } from "react-router-dom/cjs/react-router-dom";
+
+const useDeleteBlog = () => {
+  const history = useHistory();
+
+  // deleteBlog is now a stable function, not recreated on every render
+  const deleteBlog = (endpoint) => {
+    fetch(endpoint, { method: "DELETE" }).then(() => {
+      history.push("/");
+    });
   };
 
-  return { deleteBlog }; // ✅ Returns the function for external use
+  return { deleteBlog };
 };
 
 export default useDeleteBlog;

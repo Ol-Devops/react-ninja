@@ -1,4 +1,6 @@
 import { useState } from "react";
+import BackBtn from "./BackBtn";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const Create = () => {
   const [title, setTitle] = useState("");
@@ -6,6 +8,8 @@ const Create = () => {
   const [author, setAuthor] = useState("Mario");
 
   const [isPending, setIsPending] = useState(false);
+
+  const history = useHistory();
 
   const resetForm = () => {
     setTitle("");
@@ -19,7 +23,6 @@ const Create = () => {
     setIsPending(true);
 
     const blog = { title, body, author };
-    console.log(blog);
 
     fetch("http://localhost:8050/blogs", {
       method: "POST",
@@ -29,11 +32,14 @@ const Create = () => {
       console.log("New blog added");
       setIsPending(false); // Move this here so form resets after loading is done
       resetForm();
+
+      history.push("/");
     });
   };
 
   return (
     <>
+      <BackBtn />
       <div className="create">
         <h2>Add new Blog</h2>
 

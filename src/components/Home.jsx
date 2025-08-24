@@ -1,15 +1,12 @@
 import ContentHome from "./ContentHome";
 import useFetch from "../hooks/useFetch";
 import useDeleteBlog from "../hooks/useDeleteBlog";
-import { API_ENDPOINTS } from "../config/apiConfig"; // ✅ Import API endpoints
+import API_ENDPOINTS from "../config/apiConfig"; // <-- updated import
 
 const Home = () => {
-  const { BLOGS: endpoint } = API_ENDPOINTS; // ✅ Use config for endpoint
+  const endpoint = API_ENDPOINTS.BLOGS; // <-- updated usage
 
-  // ✅ EXISTING: fetch data using custom fetch hook
   const { data, isLoading, error, setData } = useFetch(endpoint);
-
-  // ✅ REPLACED INLINE FUNCTION: use custom hook instead
   const { deleteBlog } = useDeleteBlog(data, setData);
 
   const blogSize = data?.length;
@@ -22,6 +19,7 @@ const Home = () => {
         isLoading={isLoading}
         error={error}
         data={data}
+        setData={setData}
       />
     </>
   );
